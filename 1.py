@@ -1,4 +1,8 @@
-import sys
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+if __name__ == '__main__':
+    import sys
 a = tuple(map(float, input().split()))
 
 if len(a) != 10:

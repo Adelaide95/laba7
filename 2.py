@@ -1,6 +1,9 @@
-a = tuple(map(float, input().split()))
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-C = float(input())
+if __name__ == '__main__':
+    a = tuple(map(float, input().split()))
+    C = float(input())
 count = 0
 for elem in a:
     if elem > C:
